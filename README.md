@@ -29,11 +29,14 @@ RPC Client P99 Latency: 客户端视角的端到端P99延迟。
 图表分析 (Server QPS per Instance):
 <img width="2846" height="1546" alt="image" src="https://github.com/user-attachments/assets/7394d747-71f1-4bf3-8de6-a549340be9fe" />
 
-<img width="2846" height="1546" alt="image" src="https://github.com/user-attachments/assets/07cd29ba-5a72-45c0-b5e8-8510eb1237a6" />
+<img width="2846" height="1546" alt="image" src="https://github.com/user-attachments/assets/2c4aebe1-dbfb-4070-88c6-06bc7af3058b" />
 
-<img width="2846" height="1546" alt="image" src="https://github.com/user-attachments/assets/83764a72-fdf1-44eb-ad6b-f45e523b523a" />
+<img width="2846" height="1546" alt="image" src="https://github.com/user-attachments/assets/9211f0b6-5194-492f-8956-92ea7eccab6e" />
 
-<img width="2846" height="1546" alt="image" src="https://github.com/user-attachments/assets/988b432d-fff3-461c-87d9-8c99fc669a97" />
+<img width="2846" height="1546" alt="image" src="https://github.com/user-attachments/assets/45ed1285-7b1a-4ecd-bf2d-2cc9d85bf3fe" />
+
+
+
 
 从图表中可以看到，在注入延迟之前，绿色线 (8081节点) 和 黄色线 (8083节点) 的QPS曲线高度重叠、相互交织。
 
@@ -53,6 +56,9 @@ RPC Client P99 Latency: 客户端视角的端到端P99延迟。
 <img width="2846" height="1546" alt="image" src="https://github.com/user-attachments/assets/8eec3ace-5383-43af-9699-073266da81b5" />
 
 <img width="2846" height="1546" alt="image" src="https://github.com/user-attachments/assets/3d9ca00e-b799-4983-94e5-5ef04ef75e60" />
+
+
+
 
 响应时间: 在注入延迟之后，经过大约1-2分钟的“学习期”（包含Prometheus数据采集、Prophet模型预测和权重更新的延迟），系统开始做出明显的响应。
 
