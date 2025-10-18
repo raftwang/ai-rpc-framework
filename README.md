@@ -44,17 +44,15 @@ RPC Client P99 Latency: 客户端视角的端到端P99延迟。
 操作: 我们为8081节点（绿色线）的业务逻辑中人为注入了200ms的固定延迟，以模拟该节点性能突然下降。8083节点保持正常。
 
 图表分析 (Server QPS per Instance):
-<img width="2846" height="1546" alt="image" src="https://github.com/user-attachments/assets/ac978b79-7544-471b-a340-1285b2c3e6a4" />
+<img width="1594" height="1372" alt="image" src="https://github.com/user-attachments/assets/d84c62ed-232b-4d6d-a523-42cf35d4537a" />
 
-<img width="2846" height="1546" alt="image" src="https://github.com/user-attachments/assets/a70564a1-f77d-4ae1-894c-af3b5695a905" />
+<img width="2846" height="1546" alt="image" src="https://github.com/user-attachments/assets/4016cf0f-d3f7-4d75-8925-a3eb4d9dd3d3" />
 
-<img width="2846" height="1546" alt="image" src="https://github.com/user-attachments/assets/0242411e-18c7-439d-962c-fbb922f2d259" />
+<img width="2846" height="1546" alt="image" src="https://github.com/user-attachments/assets/a4511462-9cd6-4c98-bb5e-575f69ae19c3" />
 
-<img width="2846" height="1546" alt="image" src="https://github.com/user-attachments/assets/41fe7bf7-c4d9-4799-8f0e-75d6d0315fb5" />
+<img width="2846" height="1546" alt="image" src="https://github.com/user-attachments/assets/8eec3ace-5383-43af-9699-073266da81b5" />
 
-<img width="2846" height="1546" alt="image" src="https://github.com/user-attachments/assets/08e8b046-ffa5-4fee-a3c6-dedbb19e7069" />
-
-<img width="2846" height="1546" alt="image" src="https://github.com/user-attachments/assets/55980929-8fc1-410c-8527-47d29e758216" />
+<img width="2846" height="1546" alt="image" src="https://github.com/user-attachments/assets/3d9ca00e-b799-4983-94e5-5ef04ef75e60" />
 
 响应时间: 在注入延迟之后，经过大约1-2分钟的“学习期”（包含Prometheus数据采集、Prophet模型预测和权重更新的延迟），系统开始做出明显的响应。
 
