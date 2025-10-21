@@ -33,7 +33,6 @@ RPC Client P99 Latency: 客户端视角的端到端P99延迟。
 
 <img width="2846" height="1546" alt="image" src="https://github.com/user-attachments/assets/9211f0b6-5194-492f-8956-92ea7eccab6e" />
 
-<img width="2846" height="1546" alt="image" src="https://github.com/user-attachments/assets/45ed1285-7b1a-4ecd-bf2d-2cc9d85bf3fe" />
 
 
 
